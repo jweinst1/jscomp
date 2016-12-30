@@ -49,13 +49,28 @@ export namespace stdlib {
     };
 
     //returns a > expression on two variables
-    export let ge2 = (first, second) => {
+    export let gt2 = (first, second) => {
         return `${first} > ${second}`;
     };
 
     //returns a < expression on two variables
-    export let le2 = (first, second) => {
+    export let lt2 = (first, second) => {
         return `${first} < ${second}`;
+    };
+
+    //returns a >= expression on two variables
+    export let ge2 = (first, second) => {
+        return `${first} >= ${second}`;
+    };
+
+    //returns a <= expression on two variables
+    export let le2 = (first, second) => {
+        return `${first} <= ${second}`;
+    };
+
+    //returns a !== expression on two variables
+    export let ne2 = (first, second) => {
+        return `${first} !== ${second}`;
     };
 
 }

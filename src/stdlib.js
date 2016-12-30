@@ -46,12 +46,24 @@ var stdlib;
         return first + " === " + second;
     };
     //returns a > expression on two variables
-    stdlib.ge2 = function (first, second) {
+    stdlib.gt2 = function (first, second) {
         return first + " > " + second;
     };
     //returns a < expression on two variables
-    stdlib.le2 = function (first, second) {
+    stdlib.lt2 = function (first, second) {
         return first + " < " + second;
+    };
+    //returns a >= expression on two variables
+    stdlib.ge2 = function (first, second) {
+        return first + " >= " + second;
+    };
+    //returns a <= expression on two variables
+    stdlib.le2 = function (first, second) {
+        return first + " <= " + second;
+    };
+    //returns a !== expression on two variables
+    stdlib.ne2 = function (first, second) {
+        return first + " !== " + second;
     };
 })(stdlib = exports.stdlib || (exports.stdlib = {}));
 //# sourceMappingURL=stdlib.js.map
