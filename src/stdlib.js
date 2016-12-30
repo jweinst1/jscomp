@@ -125,5 +125,13 @@ var stdlib;
     stdlib.get_obj = function (obj, key) {
         return obj + "." + key;
     };
+    //sets a value in an object
+    stdlib.set_obj = function (obj, key, val) {
+        return obj + "." + key + " = " + val;
+    };
+    //sets a value in an array
+    stdlib.set = function (obj, key, val) {
+        return obj + "[" + key + "] = " + val;
+    };
 })(stdlib = exports.stdlib || (exports.stdlib = {}));
 //# sourceMappingURL=stdlib.js.map

@@ -146,4 +146,13 @@ export namespace stdlib {
     export let get_obj = (obj, key) => {
         return `${obj}.${key}`;
     };
+
+    //sets a value in an object
+    export let set_obj = (obj, key, val) => {
+        return `${obj}.${key} = ${val}`;
+    };
+    //sets a value in an array
+    export let set = (obj, key, val) => {
+        return `${obj}[${key}] = ${val}`;
+    };
 }
