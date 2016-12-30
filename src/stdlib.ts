@@ -77,5 +77,33 @@ export namespace stdlib {
     export let not = (elem) => {
         return `!${elem}`;
     };
+    //returns a || expression over two variables.
+    export let or2 = (first, second) => {
+        return `${first} || ${second}`;
+    };
 
+    //returns a && expression over two variables.
+    export let and2 = (first, second) => {
+        return `${first} && ${second}`;
+    };
+
+    //returns a && expression across on array of variables.
+    export let and = (args) => {
+        return args.join(" && ");
+    };
+
+    //returns a || expression across on array of variables.
+    export let or = (args) => {
+        return args.join(" || ");
+    };
+
+    //declares a new variable, no assignment.
+    export let decl = (name) => {
+        return `var ${name};`;
+    };
+
+    //declares and assigns a new variable
+    export let newvar = (name, value) => {
+        return `var ${name} = ${value}`;
+    };
 }

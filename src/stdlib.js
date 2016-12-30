@@ -69,5 +69,29 @@ var stdlib;
     stdlib.not = function (elem) {
         return "!" + elem;
     };
+    //returns a || expression over two variables.
+    stdlib.or2 = function (first, second) {
+        return first + " || " + second;
+    };
+    //returns a && expression over two variables.
+    stdlib.and2 = function (first, second) {
+        return first + " && " + second;
+    };
+    //returns a && expression across on array of variables.
+    stdlib.and = function (args) {
+        return args.join(" && ");
+    };
+    //returns a || expression across on array of variables.
+    stdlib.or = function (args) {
+        return args.join(" || ");
+    };
+    //declares a new variable, no assignment.
+    stdlib.decl = function (name) {
+        return "var " + name + ";";
+    };
+    //declares and assigns a new variable
+    stdlib.newvar = function (name, value) {
+        return "var " + name + " = " + value;
+    };
 })(stdlib = exports.stdlib || (exports.stdlib = {}));
 //# sourceMappingURL=stdlib.js.map

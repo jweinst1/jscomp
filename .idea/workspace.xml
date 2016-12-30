@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a6b70634-4e80-4ea7-aa85-2b38e5590978" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stdlib.js" afterPath="$PROJECT_DIR$/src/stdlib.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stdlib.js.map" afterPath="$PROJECT_DIR$/src/stdlib.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/stdlib.ts" afterPath="$PROJECT_DIR$/src/stdlib.ts" />
@@ -75,8 +76,8 @@
       <file leaf-file-name="stdlib.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/stdlib.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="501">
-              <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+            <state relative-caret-position="531">
+              <caret line="107" column="6" lean-forward="false" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
               <folding />
             </state>
           </provider>
@@ -88,8 +89,8 @@
             <state relative-caret-position="30">
               <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
               <folding>
-                <marker date="1483064103000" expanded="true" signature="151:2431" ph="{...}" />
-                <marker date="1483064103000" expanded="true" signature="458:504" ph="{...}" />
+                <marker date="1483064844000" expanded="true" signature="151:3250" ph="{...}" />
+                <marker date="1483064844000" expanded="true" signature="458:504" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -273,12 +274,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483059070686</updated>
-      <workItem from="1483059072388" duration="2724000" />
+      <workItem from="1483059072388" duration="3246000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2724000" />
+    <option name="totallyTimeSpent" value="3246000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="20" y="45" width="1260" height="684" extended-state="0" />
@@ -370,16 +371,16 @@
         <state relative-caret-position="30">
           <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
           <folding>
-            <marker date="1483064103000" expanded="true" signature="151:2431" ph="{...}" />
-            <marker date="1483064103000" expanded="true" signature="458:504" ph="{...}" />
+            <marker date="1483064844000" expanded="true" signature="151:3250" ph="{...}" />
+            <marker date="1483064844000" expanded="true" signature="458:504" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/stdlib.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="78" column="6" lean-forward="false" selection-start-line="78" selection-start-column="6" selection-end-line="78" selection-end-column="6" />
+        <state relative-caret-position="531">
+          <caret line="107" column="6" lean-forward="false" selection-start-line="107" selection-start-column="6" selection-end-line="107" selection-end-column="6" />
           <folding />
         </state>
       </provider>
