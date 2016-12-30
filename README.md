@@ -15,5 +15,5 @@ Then require
 
 ```
 var jsc = require('jscomp');
-jscomp.stdlib._while("x > 4", "consol.log(5)");
+jscomp.std._while("x > 4", "consol.log(5)");
 ```
