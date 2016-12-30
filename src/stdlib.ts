@@ -73,4 +73,9 @@ export namespace stdlib {
         return `${first} !== ${second}`;
     };
 
+    //negates the current variable
+    export let not = (elem) => {
+        return `!${elem}`;
+    };
+
 }

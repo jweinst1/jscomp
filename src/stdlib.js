@@ -65,5 +65,9 @@ var stdlib;
     stdlib.ne2 = function (first, second) {
         return first + " !== " + second;
     };
+    //negates the current variable
+    stdlib.not = function (elem) {
+        return "!" + elem;
+    };
 })(stdlib = exports.stdlib || (exports.stdlib = {}));
 //# sourceMappingURL=stdlib.js.map
