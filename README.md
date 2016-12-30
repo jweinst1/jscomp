@@ -5,3 +5,15 @@ for common targets, like variable declaration, for loops, classes, and more. jsc
 
 ##Installation
 
+To install, simply use npm first
+
+```
+$ npm install jscomp
+```
+
+Then require
+
+```
+var jsc = require('jscomp');
+jscomp.stdlib._while("x > 4", "consol.log(5)");
+```

@@ -194,4 +194,9 @@ export namespace stdlib {
     export let _for = (init = "", cond = "", proc = "", statements) => {
         return `for(${init};${cond};${proc}){${statements.join("")}}`
     };
+
+    //makes a function string
+    export let func = (name, params, statements) => {
+        return `function ${name}(${params.join(",")}){${statements.join("\n")}}`;
+    };
 }

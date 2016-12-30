@@ -172,5 +172,9 @@ var stdlib;
         if (proc === void 0) { proc = ""; }
         return "for(" + init + ";" + cond + ";" + proc + "){" + statements.join("") + "}";
     };
+    //makes a function string
+    stdlib.func = function (name, params, statements) {
+        return "function " + name + "(" + params.join(",") + "){" + statements.join("\n") + "}";
+    };
 })(stdlib = exports.stdlib || (exports.stdlib = {}));
 //# sourceMappingURL=stdlib.js.map
