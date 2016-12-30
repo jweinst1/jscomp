@@ -106,4 +106,24 @@ export namespace stdlib {
     export let newvar = (name, value) => {
         return `var ${name} = ${value}`;
     };
+
+    //declares and assigns a new variable to 0.
+    export let newvar0 = (name) => {
+        return `var ${name} = ${0}`;
+    };
+
+    //declares and assigns a new variable to false.
+    export let newvarfalse = (name) => {
+        return `var ${name} = ${false}`;
+    };
+
+    //declares and assigns a new variable to null.
+    export let newvarnull = (name) => {
+        return `var ${name} = ${null}`;
+    };
+
+    //assigns existing field or variable.
+    export let assign = (name, value) => {
+        return `${name} = ${value}`;
+    };
 }

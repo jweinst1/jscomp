@@ -93,5 +93,21 @@ var stdlib;
     stdlib.newvar = function (name, value) {
         return "var " + name + " = " + value;
     };
+    //declares and assigns a new variable to 0.
+    stdlib.newvar0 = function (name) {
+        return "var " + name + " = " + 0;
+    };
+    //declares and assigns a new variable to false.
+    stdlib.newvarfalse = function (name) {
+        return "var " + name + " = " + false;
+    };
+    //declares and assigns a new variable to null.
+    stdlib.newvarnull = function (name) {
+        return "var " + name + " = " + null;
+    };
+    //assigns existing field or variable.
+    stdlib.assign = function (name, value) {
+        return name + " = " + value;
+    };
 })(stdlib = exports.stdlib || (exports.stdlib = {}));
 //# sourceMappingURL=stdlib.js.map
