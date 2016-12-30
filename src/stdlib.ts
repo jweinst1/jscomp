@@ -155,4 +155,34 @@ export namespace stdlib {
     export let set = (obj, key, val) => {
         return `${obj}[${key}] = ${val}`;
     };
+    //calls a function with an array of arguments
+    export let call = (func, args) => {
+        return `${func}(${args.join(",")})`
+    };
+    //calls number function on argument
+    export let number = (val) => {
+        return `Number(${val})`;
+    };
+    //calls string function on argument
+    export let String = (val) => {
+        return `String(${val})`;
+    };
+    //calls boolean function on argument
+    export let boolean = (val) => {
+        return `Boolean(${val})`;
+    };
+
+    //calls console log on an argument
+    export let print = (val) => {
+        return `console.log(${val})`;
+    };
+    //makes an if statement with no else clause.
+    export let ifs = (cond, statement) => {
+        return `if(${cond}){${statement}}`;
+    };
+
+    //makes an if statement with else clause
+    export let ife = (cond, state_t, state_f) => {
+        return `if(${cond}){${state_t}} else {${state_f}}`;
+    };
 }

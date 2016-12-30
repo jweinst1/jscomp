@@ -133,5 +133,33 @@ var stdlib;
     stdlib.set = function (obj, key, val) {
         return obj + "[" + key + "] = " + val;
     };
+    //calls a function with an array of arguments
+    stdlib.call = function (func, args) {
+        return func + "(" + args.join(",") + ")";
+    };
+    //calls number function on argument
+    stdlib.number = function (val) {
+        return "Number(" + val + ")";
+    };
+    //calls string function on argument
+    stdlib.String = function (val) {
+        return "String(" + val + ")";
+    };
+    //calls boolean function on argument
+    stdlib.boolean = function (val) {
+        return "Boolean(" + val + ")";
+    };
+    //calls console log on an argument
+    stdlib.print = function (val) {
+        return "console.log(" + val + ")";
+    };
+    //makes an if statement with no else clause.
+    stdlib.ifs = function (cond, statement) {
+        return "if(" + cond + "){" + statement + "}";
+    };
+    //makes an if statement with else clause
+    stdlib.ife = function (cond, state_t, state_f) {
+        return "if(" + cond + "){" + state_t + "} else {" + state_f + "}";
+    };
 })(stdlib = exports.stdlib || (exports.stdlib = {}));
 //# sourceMappingURL=stdlib.js.map
