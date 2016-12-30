@@ -161,5 +161,16 @@ var stdlib;
     stdlib.ife = function (cond, state_t, state_f) {
         return "if(" + cond + "){" + state_t + "} else {" + state_f + "}";
     };
+    //makes a while loop
+    stdlib._while = function (cond, statement) {
+        return "while(" + cond + "){" + statement + "}";
+    };
+    //makes a for loop
+    stdlib._for = function (init, cond, proc, statements) {
+        if (init === void 0) { init = ""; }
+        if (cond === void 0) { cond = ""; }
+        if (proc === void 0) { proc = ""; }
+        return "for(" + init + ";" + cond + ";" + proc + "){" + statements.join("") + "}";
+    };
 })(stdlib = exports.stdlib || (exports.stdlib = {}));
 //# sourceMappingURL=stdlib.js.map

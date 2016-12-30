@@ -185,4 +185,13 @@ export namespace stdlib {
     export let ife = (cond, state_t, state_f) => {
         return `if(${cond}){${state_t}} else {${state_f}}`;
     };
+
+    //makes a while loop
+    export let _while = (cond, statement) => {
+        return `while(${cond}){${statement}}`;
+    };
+    //makes a for loop
+    export let _for = (init = "", cond = "", proc = "", statements) => {
+        return `for(${init};${cond};${proc}){${statements.join("")}}`
+    };
 }
